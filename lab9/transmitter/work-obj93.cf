@@ -1,0 +1,7 @@
+v 4
+file . "baudrate.vhd" "28fe6ebddc93b292bfe5255c20dd41fd6a622951" "20201228162038.744":
+  entity rs232 at 1( 0) + 0 on 13;
+  architecture transmit of rs232 at 14( 167) + 0 on 14;
+file . "baudrate_tb.vhd" "2d90b2a2584f917e3be698c48a23ac478e7623ab" "20201228162228.879":
+  entity baudrate_tb at 1( 0) + 0 on 15;
+  architecture tb of baudrate_tb at 9( 99) + 0 on 16;

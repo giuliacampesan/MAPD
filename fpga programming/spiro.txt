@@ -1,0 +1,32 @@
+ ssh -L 3310:lxilinx1.fisica.unipd.it:22 campesgi@spiro.fisica.unipd.it 
+in un altro terminale
+ssh -p 3310 campesgi@localhost
+-bash-4.2$ mkdir campesgi
+-bash-4.2$ cd campesgi
+-bash-4.2$ cd
+-bash-4.2$ cd campesgi
+-bash-4.2$ cd
+-bash-4.2$ ls
+campesgi
+
+
+ha scritto gianma verso le 9:50
+ssh -L 3710:lxilinx1.fisica.unipd.it:22 -oKexAlgorithms=+diffie-hellman-group1-sha1 username@labp104.fisica.unipd.it 
+
+per configurare vivado
+export LC_ALL=en_US.UTF-8 
+source /tools/Xilinx/Vivado/2018.3/settings64.sh
+
+list of device perform it each time
+ls -l /dev/ttyUSB*
+and spot the line of my board
+(if the board is programmed you find only one device connected)
+
+you copy your board number (last string of the line) aka yournumber
+
+screen /dev/ttyUSB<your number> 115200
+send character and expect echo behaviour
+
+then to exit from this mode 
+Type control+a, then k, then y 
+screen -ls

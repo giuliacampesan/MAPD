@@ -1,0 +1,13 @@
+v 4
+file . "patterndetect.vhd" "44a508c2f08e2d5264c290edbc28d6d333152677" "20201214162553.291":
+  entity patterndetect at 1( 0) + 0 on 11;
+  architecture rtl of patterndetect at 12( 178) + 0 on 12;
+file . "synchronized.vhd" "a2bdb0f11f03be801ccb0d5fe6b137c165b08b63" "20201214155728.730":
+  entity synchronized at 1( 0) + 0 on 4;
+  architecture synchronized_input of synchronized at 17( 197) + 0 on 4;
+file . "synchronized_tb.vhd" "daa4f542e09114a657ba92a553596872f4098df6" "20201214162553.225":
+  entity synchronized_tb at 1( 0) + 0 on 4;
+  architecture tb of synchronized_tb at 7( 77) + 0 on 4;
+file . "patterndetect_tb.vhd" "6e340a4f5bc9a4c6a112bd25ecf8867fe729afe2" "20201214162553.291":
+  entity patterndetect_tb at 1( 0) + 0 on 13;
+  architecture test of patterndetect_tb at 5( 99) + 0 on 14;

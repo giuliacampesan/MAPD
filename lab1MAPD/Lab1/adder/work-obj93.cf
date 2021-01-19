@@ -1,0 +1,8 @@
+v 4
+file . "adder.vhd" "2745afa297d7f835b59b3191de78e1e7bd7850d8" "20201117155517.589":
+  entity adder at 1( 0) + 0 on 16;
+  architecture rtl of adder at 17( 313) + 0 on 17;
+file . "adder_tb.vhd" "4ae48b50d1f481325deb9de6570d7b6921a51fc3" "20201117155639.776":
+  entity adder_tb at 2( 1) + 0 on 21;
+  architecture test of adder_tb at 13( 249) + 0 on 22;
+  configuration adder_tb_test_cfg at 51( 1039) + 0 on 23;

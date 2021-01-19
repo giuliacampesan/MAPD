@@ -1,0 +1,15 @@
+#!/bin/sh
+
+ghdl -i pulse_generator.vhd
+ghdl -i delayline.vhd 
+ghdl -i sampler_generator_statemachine.vhd
+ghdl -i sampler_generator.vhd
+ghdl -i receiver_statemachine.vhd
+ghdl -i receiver.vhd
+ghdl -i receiver_tb.vhd
+
+ghdl -m receiver_tb
+
+ghdl -r receiver_tb --stop-time=200us --wave=receiver.ghw
+
+gtkwave receiver.ghw

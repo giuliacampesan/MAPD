@@ -1,0 +1,4 @@
+v 4
+file . "heartbeat.vhd" "f2d4ce76fc0724ad86ab7a71fc7596f76201635f" "20201123204232.285":
+  entity heartbeat at 1( 0) + 0 on 11;
+  architecture behaviour of heartbeat at 8( 110) + 0 on 12;

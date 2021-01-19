@@ -1,0 +1,25 @@
+v 4
+file . "receiver.vhd" "0419ebfe2b67da84e4c4e202c2517100d50259e8" "20210109170028.697":
+  entity receiver at 1( 0) + 0 on 31;
+  architecture arch of receiver at 15( 229) + 0 on 32;
+file . "sampler_gen_tb.vhd" "54bac51a60ee0dcc4695d07d2bb7cbb1891238e6" "20201225162317.912":
+  entity generator_tb at 1( 0) + 0 on 29;
+  architecture tb of generator_tb at 8( 106) + 0 on 30;
+file . "delayline.vhd" "d60849f47dc0778cef816c35230d0c28565201a3" "20210109170028.697":
+  entity delay_line at 1( 0) + 0 on 43;
+  architecture counter of delay_line at 13( 196) + 0 on 44;
+file . "receiver_statemachine.vhd" "9198f05ea386a773ac335ee0a6c9110cb5d15eef" "20210109170028.697":
+  entity main_state_machine at 1( 0) + 0 on 37;
+  architecture sm of main_state_machine at 18( 266) + 0 on 38;
+file . "receiver_tb.vhd" "8494906cdae9861e590d98755aaf4398083df8d4" "20210109170028.697":
+  entity receiver_tb at 1( 0) + 0 on 33;
+  architecture tb of receiver_tb at 8( 105) + 0 on 34;
+file . "sampler_generator.vhd" "fa99ce8ece6f6864419e09531c9669653deb1128" "20210109170028.697":
+  entity sampler_generator at 1( 0) + 0 on 35;
+  architecture archt of sampler_generator at 13( 202) + 0 on 36;
+file . "pulse_generator.vhd" "ce67866adea8af20d092ba587da0011f07ac0359" "20210109170028.697":
+  entity generator at 1( 0) + 0 on 39;
+  architecture pulse of generator at 15( 197) + 0 on 40;
+file . "sampler_generator_statemachine.vhd" "d3a27abdabe221032aa646306777f7419b941889" "20210109170028.697":
+  entity gen_sm at 1( 0) + 0 on 41;
+  architecture sm of gen_sm at 14( 212) + 0 on 42;
