@@ -1,4 +1,5 @@
  ssh -L 3310:lxilinx1.fisica.unipd.it:22 campesgi@spiro.fisica.unipd.it 
+password: 9qw-nMW6
 in un altro terminale
 ssh -p 3310 campesgi@localhost
 -bash-4.2$ mkdir campesgi
@@ -30,3 +31,13 @@ send character and expect echo behaviour
 then to exit from this mode 
 Type control+a, then k, then y 
 screen -ls
+
+
+How do I wget a file from GitHub?
+According to this gist, you can use wget or cURL:
+
+    Click the file name in a GitHub repo.
+    Click Raw to display the file contents.
+    Copy the URL in your browser.
+
+

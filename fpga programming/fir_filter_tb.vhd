@@ -32,7 +32,7 @@ architecture test of fir_filter_4_tb is
 begin  -- architecture test
 
   -- component instantiation
-  DUT : entity work.fir_filter_4
+  DUT : entity work.fir_filter
     port map (
       i_clk     => i_clk,       
       i_rstb    => i_rstb,      
